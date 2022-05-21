@@ -1,39 +1,70 @@
-import { BrowserRouter as Router , Route, Routes , Link } from 'react-router-dom';
+import { BrowserRouter as Router , Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blog from './pages/Blog/FullBlog';
 import Home from './pages/Home/Home';
 import BlogList from './pages/Blog/BlogList';
 import data from './pages/Blog/data.json'
+import ErrorPage from './pages/ErrorPage'
+import {useState , useEffect} from 'react'
+import HashLoader from "react-spinners/HashLoader";
+import { css } from "@emotion/react";
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
+
+  const [loading , setLoading] = useState(false);
+
+  useEffect(() => {
+
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    } , 2000)
+
+  },[])
+
+  const override = css`
+  display: block;
+  margin: 20% auto;
+  
+ 
+`;
+
   return (
-<Router>
+
+    
+
     <div className="App">
 
-    <div className='navbar'>
+      { loading ?  
 
-    <h2 className='port-nav-logo'><Link to='/' className='port-nav-logo'>Pawan Arasu .T 😎</Link></h2>    
+   <HashLoader
+ css={override} size={150} color={"#FF6B6B"} loading={loading} className="loader"  speedMultiplier={1.5} />
 
 
+      :
 
-    <div className='port-links'>
+      <Router>
 
-      <Link to="/" className='port-nav-items home' >🏡</Link>
-      <Link to="/blog" className='port-nav-items blogs' >📃</Link>
-      <Link to="/about" className='port-nav-items about' >☎️</Link>
-           
 
-    </div>
-
-      </div>
+        <Navbar />  
 
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/blog' element={<BlogList data={data}/>} />
         <Route path='/blogs/:id' element={<Blog />} />
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
-    </div>
+
+      <Footer />
+
   </Router>   
+
+      }
+ 
+    </div>
+  
   );
 }
 

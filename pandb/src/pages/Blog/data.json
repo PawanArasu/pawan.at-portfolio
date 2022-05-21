@@ -2,27 +2,21 @@
     {
         "id": 1,
         "title": "Post 1",
-        "description":"Heyeyyeyeyeyye Yoooopsum dolor sit amet, consectetur adipiscing elit. Proin facilisis velit nec ante sodales, et convallis magna interdum. Ut rutrum justo sed luctus ultrices. Nulla facilisi. Suspendisse a interdum nunc. Nullam consequat nec mi et scelerisque. Praesent neque erat, fermentum eget magna ut, facilisis porta mi. Aenean egestas faucibus mi id luctus. Nulla lobortis magna vel velit molestie tristique. Nunc tempor, urna eu porttitor eleifend, erat ipsum auctor est, vel pharetra lorem diam eu eros. Donec pulvinar pulvinar dapibus. Nam at lectus commodo sem tincidunt iaculis. Maecenas quis pellentesque purus. Cras pharetra orci et arcu sagittis, et maximus lacus scelerisque.",
+        "description":"On this post I hearby declare the Prototype 1 for my blog design is Ready!",
         "authorName":"Pawan",
-        "coverImage":"https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "createdOn":"May 14 2022, 1:10 AM"
+        "coverImage":"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+        "createdOn":"May 16 2022, 10:46 PM"
     },
     
     {
         "id": 2,
-        "title": "bla",
+        "title": "How i planned to code my own blog and the reason why i coded it!",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis velit nec ante sodales, et convallis magna interdum. Ut rutrum justo sed luctus ultrices. Nulla facilisi. Suspendisse a interdum nunc. Nullam consequat nec mi et scelerisque. Praesent neque erat, fermentum eget magna ut, facilisis porta mi. Aenean egestas faucibus mi id luctus. Nulla lobortis magna vel velit molestie tristique. Nunc tempor, urna eu porttitor eleifend, erat ipsum auctor est, vel pharetra lorem diam eu eros. Donec pulvinar pulvinar dapibus. Nam at lectus commodo sem tincidunt iaculis. Maecenas quis pellentesque purus. Cras pharetra orci et arcu sagittis, et maximus lacus scelerisque.",
         "authorName":"Pawan",
         "coverImage":"https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "createdOn":"May 14 2022, 1:10 AM"
-    },
+    }
     
-    {
-        "id": 3,
-        "title": "bla",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis velit nec ante sodales, et convallis magna interdum. Ut rutrum justo sed luctus ultrices. Nulla facilisi. Suspendisse a interdum nunc. Nullam consequat nec mi et scelerisque. Praesent neque erat, fermentum eget magna ut, facilisis porta mi. Aenean egestas faucibus mi id luctus. Nulla lobortis magna vel velit molestie tristique. Nunc tempor, urna eu porttitor eleifend, erat ipsum auctor est, vel pharetra lorem diam eu eros. Donec pulvinar pulvinar dapibus. Nam at lectus commodo sem tincidunt iaculis. Maecenas quis pellentesque purus. Cras pharetra orci et arcu sagittis, et maximus lacus scelerisque.",
-        "authorName":"Pawan",
-        "coverImage":"https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-        "createdOn":"May 14 2022, 1:10 AM"
-    }   
+    
+    
 ]

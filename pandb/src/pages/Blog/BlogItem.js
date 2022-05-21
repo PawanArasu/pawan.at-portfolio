@@ -11,7 +11,7 @@ const BlogItem = (props) => {
             <h5 className='author'>@{props.author}</h5>
             <p className='time-created'>{props.time}</p>
         </div>
-        <Link to={`/blogs/${props.id}`} className="link-to-post">Go To Post</Link>
+        <Link to={`/blogs/${props.id}`} className="link-to-post">Read More!</Link>
     </div>
   )
 }

@@ -23,10 +23,11 @@ const Blog = () => {
       {blog ? (
         <div className='blog-wrap'>
           <header>
-            <p className='blog-date'>Published {blog.createdOn}</p>
-            <h1>{blog.title}</h1>
+            <p className='blog-date'>Published on {blog.createdOn}</p>
+            <p className='blog-author' href='/'>@{blog.authorName}</p>
+            <h1 className='blog-title'>{blog.title}</h1>
           </header>
-          <img src={blog.coverImage} alt='cover' />
+          <img src={blog.coverImage} alt='cover' className='cover-full' />
           <p className='blog-desc'>{blog.description}</p>
         </div>
       ) : (
